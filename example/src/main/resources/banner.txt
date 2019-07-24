@@ -1,0 +1,10 @@
+.__   __.      ___      .______     ______    __       _______     ___      .__   __.
+|  \ |  |     /   \     |   _  \   /  __  \  |  |     |   ____|   /   \     |  \ |  |
+|   \|  |    /  ^  \    |  |_)  | |  |  |  | |  |     |  |__     /  ^  \    |   \|  |
+|  . `  |   /  /_\  \   |   ___/  |  |  |  | |  |     |   __|   /  /_\  \   |  . `  |
+|  |\   |  /  _____  \  |  |      |  `--'  | |  `----.|  |____ /  _____  \  |  |\   |
+|__| \__| /__/     \__\ | _|       \______/  |_______||_______/__/     \__\ |__| \__|
+
+${AnsiColor.BRIGHT_RED}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
