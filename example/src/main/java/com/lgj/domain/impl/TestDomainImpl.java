@@ -58,10 +58,7 @@ public class TestDomainImpl implements TestDomain{
 		}*/
         
         Object object = stringRedisTemplate.opsForHash().get("test", testKey);
-        String jsonString2 = JSON.toJSONString(object);
-        
-        
-        List<Country> parseArray = JSON.parseArray(jsonString2, Country.class);
+        List<Country> parseArray = JSON.parseArray(object.toString(), Country.class);
         
 //        redisClient.putHash(test, testKey1, jsonString);
 //        stringRedisTemplate.opsForHash().scan(arg0, arg1);
